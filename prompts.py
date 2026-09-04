@@ -18,12 +18,14 @@ Description: {description}
 Priority: {priority}
 
 INSTRUCTIONS:
+INSTRUCTIONS:
 1. Compare the incident against the knowledge base articles above.
 2. Decide ONE of the following:
-   - "respond": if a knowledge base article clearly and specifically covers this exact problem. Write the solution from that article as the message.
-   - "ask": if a knowledge base article MIGHT apply, but the incident is too vague to be sure. Write a short clarifying question as the message.
-   - "escalate": if NONE of the knowledge base articles cover this problem. Write a short note that a human should handle it.
-3. If unsure whether an article applies, prefer "ask" over "respond". If no article is even plausibly related, use "escalate".
+   - "respond": ONLY if the incident includes enough specific detail to be CONFIDENT a knowledge base article directly resolves it (e.g. mentions the specific device, error, or symptom the article describes). Write the solution from that article as the message.
+   - "ask": if a knowledge base article might apply to the general topic, but the incident lacks specific details (e.g. just says "it doesn't work" without describing symptoms, error messages, or what was tried). This is the DEFAULT for vague reports. Write a short clarifying question as the message.
+   - "escalate": if NONE of the knowledge base articles cover this problem's topic at all. Write a short note that a human should handle it.
+3. Being vague is common. A short report like "it just doesn't work" or "having an issue" is NOT enough detail for "respond" — that must be "ask" instead. Reserve "respond" only for incidents with clear, specific symptoms matching an article.
+4. If no article is even plausibly related to the topic, use "escalate". 
 
 Respond with ONLY valid JSON, no markdown, no other text, in exactly this format:
 {{"decision": "respond" | "ask" | "escalate", "message": "short message text here"}}"""
