@@ -48,10 +48,10 @@ A new incident is created in ServiceNow → a FastAPI service asks Gemini to dec
 ## Screenshots
 
 ### Business Rule Setup
-_(add screenshot)_
+<img width="3837" height="1940" alt="Screenshot 2026-09-05 130639" src="https://github.com/user-attachments/assets/0e58e6b6-ed2b-4013-ac40-387bd7c26fe9" />
 
-### Respond / Ask / Escalate — before & after
-_(add screenshots)_
+<img width="3837" height="1925" alt="Screenshot 2026-09-05 130659" src="https://github.com/user-attachments/assets/7c2eb921-b3d2-4873-8e9f-74d4e5268a12" />
+
 
 ## Notes
 
