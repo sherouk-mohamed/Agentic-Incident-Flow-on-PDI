@@ -1,7 +1,5 @@
 # Task 0 — Agentic Incident Flow on ServiceNow PDI
 
-## Demo Video
-[Watch the demo](https://drive.google.com/file/d/1S183-ISuy_o_JIIIP3orKt6Pje91rT9q/view?usp=sharing)
 
 ## What this does
 
